@@ -1,0 +1,21 @@
+{
+  "name": "@gagan1299_/colors-112233",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "del ./build",
+    "build": "npm run clean && tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/faker": "^5.5.9",
+    "bcrypt": "^5.0.1",
+    "faker": "^5.5.3",
+    "tsc": "^2.0.3"
+  },
+  "devDependencies": {
+    "del-cli": "^4.0.1"
+  }
+}
